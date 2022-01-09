@@ -1,0 +1,29 @@
+*{
+    width: 750px;
+    height: auto;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(128, 56, 128);
+}
+
+#container {
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+}
+
+#MenuLeft {
+    height: 150px;
+    background-color: #5181a9;
+}
+
+main {
+    height: 450px;
+    background-color: #ff6347;
+}
+#MenuRight {
+    height: 150px;
+    background-color: #5181a9;
+}
