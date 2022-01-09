@@ -115,6 +115,61 @@ main {
     border: black solid .2vh;
 }
 
+#informationForms {
+    margin-top: 2vh;
+    line-height: 5.1vh;
+    margin-left: 8vh;
+}
+
+.titleForms {
+    border-bottom: solid .3vh;
+}
+
+input:hover,
+textarea:hover {
+    background: rgb(243, 238, 238);
+}
+
+.name input[type="text"],
+.email input[type="email"],
+.phone input[type="tel"],
+textarea {
+    padding: 0.2em;
+    width: 70vh;
+    border: 0.2vh solid #020202;
+    box-shadow: 0.2vh 0.2vh 0.2vh rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5vh;
+}
+
+textarea {
+    height: 10vh;
+    resize: none;
+}
+
+.terms_Conditions {
+    color: #5181a9;
+}
+
+button {
+    background-color: #5d8aa8;
+    width: 72vh;
+    height: 4.5vh;
+    color: white;
+    border-radius: 0.5vh;
+    border: none;
+    cursor: pointer;
+    margin-top: 1vh;
+    font-size: 2vh;
+}
+
+button:hover {
+    border-bottom: tomato solid .5vh;
+    background: white;
+    color: black;
+}
+
 aside {
     height: 62vh;
     width: 28vh;
