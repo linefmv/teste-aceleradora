@@ -15,7 +15,7 @@
 header {
     height: 13vh;
     width: 150vh;
-    box-shadow: rgba(0, 0, 0, 0.1) 0vh 0.5vh 1.7vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.5vh 1.7vh;
     background-color: #5181a9;
 }
 
@@ -33,7 +33,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     margin-top: 1vh;
-    box-shadow: rgba(0, 0, 0, 0.1) 0vh 0.5vh 1.7vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.5vh 1.7vh;
     background-color: #5d8aa8;
 }
 
@@ -41,7 +41,7 @@ nav > ul {
     display: flex;
     list-style: none;
     flex-direction: row;
-    padding: 2.5vh 0vh;
+    padding: 2.5vh 0;
     background-color: #5d8aa8;
 }
 
@@ -54,7 +54,7 @@ nav > ul li a {
     color: #000000;
     text-decoration: none;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.1) 0vh 0.5vh 1.7vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.5vh 1.7vh;
     margin-left: 1vh;
 }
 
@@ -75,7 +75,7 @@ nav li a:focus {
 section {
     width: 30vh;
     height: 62vh;
-    box-shadow: rgba(0, 0, 0, 0.1) 0vh 0.5vh 1.7vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.5vh 1.7vh;
     margin-top: 1vh;
     border: black solid .2vh;
 }
@@ -111,7 +111,7 @@ main {
     width: 89vh;
     height: 62vh;
     margin-left: 1vh;
-    box-shadow: rgba(0, 0, 0, 0.1) 0vh 0.5vh 1.7vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.5vh 1.7vh;
     border: black solid .2vh;
 }
 
@@ -175,12 +175,12 @@ aside {
     width: 28vh;
     margin-left: 1vh;
     margin-top: 1vh;
-    box-shadow: rgba(0, 0, 0, 0.1) 0vh 0.5vh 1.7vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.5vh 1.7vh;
     border: black solid .2vh;
 }
 
 footer {
-    box-shadow: rgba(0, 0, 0, 0.1) 0vh 0.5vh 1.7vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.5vh 1.7vh;
     height: 13vh;
     margin-top: 1vh;
     width: 150vh;
