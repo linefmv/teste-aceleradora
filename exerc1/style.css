@@ -1,4 +1,4 @@
-*{
+* {
     width: 100%;
 }
 
@@ -6,6 +6,7 @@ body {
     display: grid;
     justify-content: center;
 }
+
 header {
     width: 750px;
     height: 100px;
@@ -14,8 +15,8 @@ header {
 
 #container {
     width: 750px;
-    display:flex;
-    justify-content:flex-end;
+    display: flex;
+    justify-content: flex-end;
     flex-direction: row;
 }
 
@@ -28,6 +29,7 @@ main {
     height: 450px;
     background-color: #ff6347;
 }
+
 #MenuRight {
     height: 150px;
     background-color: #5181a9;
