@@ -19,6 +19,13 @@ header {
     background-color: #5181a9;
 }
 
+h1 {
+    margin-top: 3.8vh;
+    text-align: center;
+    color: white;
+    background-color: #5181a9;
+}
+
 nav {
     height: 8vh;
     width: 150vh;
@@ -71,6 +78,32 @@ section {
     box-shadow: rgba(0, 0, 0, 0.1) 0vh 0.5vh 1.7vh;
     margin-top: 1vh;
     border: black solid .2vh;
+}
+
+.menuLeft {
+    margin-top: 3vh;
+    text-align: center;
+    list-style: none;
+    line-height: 5vh;
+}
+
+.menuLeft li a {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.menuLeftLink1:hover,
+.menuLeftLink2:hover,
+.menuLeftLink3:hover,
+.menuLeftLink4:hover,
+.menuLeftLink5:hover {
+    text-decoration: none;
+    border-bottom: tomato solid .5vh;
+}
+
+a {
+    text-decoration: none;
 }
 
 main {
