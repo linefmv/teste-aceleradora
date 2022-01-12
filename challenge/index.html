@@ -10,34 +10,42 @@
 </head>
 
 <body>
-    <h1>Boletim</h1>
-<main>
-    <label>Nome do Aluno</label>
-    <input type="number" name="studentName" id="studentName" />
-    <label>Nota do Primeiro Semestre</label>
-    <input type="number" name="firstSemesterNotes" id="firstSemesterNotes" />
-    <label>Nota do Segundo Semestre</label>
-    <input type="number" name="secondSemesterNotes" id="secondSemesterNotes" />
-    <label>Frequência (%)</label>
-    <input type="number" name="frequency" id="frequency" />
-    <input type="button" value="Enviar" onClick="buttonAddFunctions()" id="add">
-    <input type="button" value="Apagar" onClick="clearInputs()" id="add">
-    <br /><br />
-    <table id="table">
-        <thead id="table-head">
-            <tr>
-                <th>Nome do Aluno</th>
-                <th>Nota do Primeiro Semestre</th>
-                <th>Nota do Segundo Semestre</th>
-                <th>Frequência (%)</th>
+    <main>
+        <forms id="forms">
+            <h1 class="title">Boletim</h1>
+            <p class="describe"> Olá, criamos esses sistema para auxiliar na declaração de notas!
+                Fique a vontade para adicionar as notas e a frequência do seu aluno.
+            </p>
+            <div class="inputs">
+            <label>Nome do Aluno</label>
+            <input type="number" name="studentName" id="studentName" />
+            <label>1° Semestre</label>
+            <input type="number" name="firstSemesterNotes" id="firstSemesterNotes" />
+            <label>2° Semestre</label>
+            <input type="number" name="secondSemesterNotes" id="secondSemesterNotes" />
+            <label>Frequência (%)</label>
+            <input type="number" name="frequency" id="frequency" />
+            </div>
+            <div class="buttons">
+            <input type="button" value="Enviar" onClick="buttonAddFunctions()" id="add">
+            <input type="button" value="Apagar" onClick="clearInputs()" id="add">
+            </div>
+        </forms>
+        <table id="table">
+            <thead id="table-head">
+                <tr>
+                    <th>Nome</th>
+                    <th>1° Semestre</th>
+                    <th>2° Semestre</th>
+                    <th>Frequência (%)</th>
 
-            </tr>
-        </thead>
-        <tbody id="table-body">
-        </tbody>
-    </table>
-</main>
-            <script src="index.js"></script>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </main>
+    <script src="index.js"></script>
 </body>
 
 </html>
