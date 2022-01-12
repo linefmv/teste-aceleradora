@@ -22,4 +22,10 @@ tableBody.appendChild(row);
 
 }
 
+const sendInput = document.getElementById('add')
+const table = document.getElementById('table')
+const showTable = () => table.style.display = "block";
+sendInput.addEventListener('click', () => {
+    showTable()
+})
 
