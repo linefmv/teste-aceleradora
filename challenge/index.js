@@ -29,3 +29,10 @@ sendInput.addEventListener('click', () => {
     showTable()
 })
 
+function buttonAddFunctions() {
+    addRow();
+    showTable();
+}
+
+
+
