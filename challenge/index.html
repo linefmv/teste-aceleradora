@@ -18,26 +18,25 @@
             </p>
             <div class="inputs">
             <label>Nome do Aluno</label>
-            <input type="number" name="studentName" id="studentName" />
+            <input type="text" name="studentName" id="studentName" />
             <label>1° Semestre</label>
             <input type="number" name="firstSemesterNotes" id="firstSemesterNotes" />
             <label>2° Semestre</label>
-            <input type="number" name="secondSemesterNotes" id="secondSemesterNotes" />
-            <label>Frequência (%)</label>
-            <input type="number" name="frequency" id="frequency" />
+            <input type="number"  name="secondSemesterNotes" id="secondSemesterNotes" />
+            <label>Frequência</label>
+            <input type="number"  name="frequency" id="frequency" />
             </div>
             <div class="buttons">
-            <input type="button" value="Enviar" onClick="buttonAddFunctions()" id="add">
-            <input type="button" value="Apagar" onClick="clearInputs()" id="add">
+            <button type="button" value="Enviar" onClick="buttonAddFunctions()" id="add">Enviar</button>
             </div>
         </forms>
         <table id="table">
             <thead id="table-head">
                 <tr>
-                    <th>Nome</th>
+                    <th class="name">Nome</th>
                     <th>1° Semestre</th>
                     <th>2° Semestre</th>
-                    <th>Frequência (%)</th>
+                    <th>Frequência</th>
 
                 </tr>
             </thead>
