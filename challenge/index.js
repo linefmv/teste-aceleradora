@@ -26,12 +26,10 @@ function addRow() {
   
   tableBody.appendChild(row);
 
-  const answers = document.querySelectorAll("td");
-  console.log(answers);
-  answers.forEach(answer => {   console.log(answer);
+  const allAnswers = document.querySelectorAll("td");
+  allAnswers.forEach(answer => {   console.log(answer);
     answer.style.backgroundColor = "green" });
 }
-
 
 const sendForms = document.getElementById("add");
 const table = document.getElementById("table");
