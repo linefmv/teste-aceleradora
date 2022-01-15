@@ -4,9 +4,9 @@
 Solução de exercícios propostos para a 2° fase do processo seletivo da Aceleradora Ágil.
 
 ## Disponível em:
- - [Exercicio Um](https://linefmv.github.io/solucao-aceleradora/exercicio1/)
- - [Exercicio Dois](https://linefmv.github.io/solucao-aceleradora/exercicio2/)
- - [Desafio](https://linefmv.github.io/solucao-aceleradora/challenge/)
+ - [Exercicio Um](https://linefmv.github.io/teste-aceleradora/exercicio1/)
+ - [Exercicio Dois](https://linefmv.github.io/teste-aceleradoraa/exercicio2/)
+ - [Desafio](https://linefmv.github.io/teste-aceleradora/challenge/)
 
 
 ## Informações
