@@ -8,24 +8,30 @@ function addRow() {
   
   const row = document.createElement("tr");
 
-  const studentNameValue =  document.getElementById("studentName").value;
+  const studentNameValue = document.getElementById("studentName").value;
   const firstSemesterValue = parseFloat(document.getElementById("firstSemesterNotes").value);
   const secondSemesterValue = parseFloat(document.getElementById("secondSemesterNotes").value);
-  const frequencyValue = document.getElementById("frequency").value;
+  const frequencyValue = Number(document.getElementById("frequency").value);
 
   nameOfStudent.innerHTML = studentNameValue
   notesFirstSemester.innerHTML = firstSemesterValue.toFixed(2);
   notesSecondSemester.innerHTML = secondSemesterValue.toFixed(2)
   frequency.innerHTML = frequencyValue + '%'
-
+  
+  
   row.appendChild(nameOfStudent);
   row.appendChild(notesFirstSemester);
   row.appendChild(notesSecondSemester);
   row.appendChild(frequency);
   
   tableBody.appendChild(row);
-  
+
+  const answers = document.querySelectorAll("td");
+  console.log(answers);
+  answers.forEach(answer => {   console.log(answer);
+    answer.style.backgroundColor = "green" });
 }
+
 
 const sendForms = document.getElementById("add");
 const table = document.getElementById("table");
