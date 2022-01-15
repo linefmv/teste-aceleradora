@@ -18,13 +18,13 @@
             </p>
             <div class="inputs">
             <label>Nome do Aluno</label>
-            <input type="text" name="studentName" id="studentName" />
+            <input type="text" name="studentName" id="studentName" required/>
             <label>1° Semestre</label>
-            <input type="number" name="firstSemesterNotes" id="firstSemesterNotes" />
+            <input type="number" name="firstSemesterNotes" id="firstSemesterNotes" required/>
             <label>2° Semestre</label>
-            <input type="number"  name="secondSemesterNotes" id="secondSemesterNotes" />
+            <input type="number"  name="secondSemesterNotes" id="secondSemesterNotes" required />
             <label>Frequência</label>
-            <input type="number"  name="frequency" id="frequency" />
+            <input type="number" name="frequency" id="frequency"required />
             </div>
             <div class="buttons">
             <button type="button" value="Enviar" onClick="buttonAddFunctions()" id="add">Enviar</button>
@@ -33,7 +33,7 @@
         <table id="table">
             <thead id="table-head">
                 <tr>
-                    <th class="name">Nome</th>
+                    <th>Nome</th>
                     <th>1° Semestre</th>
                     <th>2° Semestre</th>
                     <th>Frequência</th>
