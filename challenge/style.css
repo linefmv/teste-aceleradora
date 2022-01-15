@@ -69,33 +69,33 @@ input {
   font-size: 0.9rem;
   color: #0f0e0d;
 }
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 label {
   font-size: 0.9rem;
   color: #0f0e0d;
   padding: 2vh;
 }
+
 button {
   width: 200px;
   height: 30px;
-  height: 2em;
-  margin: 2vh
+  margin: 2vh;
+  border: none;
+  background-color: #e16f1f;
+  color: #fff;
 }
 
-th {
-  padding: 5px;
-  text-align: center;
-  border-bottom: 1px solid;
-  width: fit-content;
-  font-size: .8rem;
-  text-transform: capitalize;
-}
-.name {
-  width: 20%;
+button:hover {
+  background-color: #fff;
+  color: #e16f1f;
+  font-weight: bold;
 }
 table {
   display: none;
-  align-items: center;
-  width: 30%;
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border-radius: 10px;
@@ -105,3 +105,23 @@ table {
   margin-left: 2vh;
 }
 
+th {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid;
+  width: fit-content;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+td {
+  width: 100px;
+  text-align: center;
+  border-bottom: 1px solid;
+  padding: 2vh;
+  text-transform: capitalize;
+}
+
+thead {
+  Color: #000;
+}
